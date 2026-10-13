@@ -1,0 +1,6 @@
+# Netlify SPA rewrite rules for integrated projects & games
+/games/chimp-memory/*        /games/chimp-memory/index.html        200
+/games/object-order-memory/*  /games/object-order-memory/index.html  200
+/projects/ai-cb/*            /projects/ai-cb/index.html            200
+/projects/hireflow/*         /projects/hireflow/index.html         200
+/projects/hrv-m/*            /projects/hrv-m/index.html            200

@@ -1,0 +1,16 @@
+{
+  "name": "Chimp Memory — Cognitive Focus Training",
+  "short_name": "ChimpMemory",
+  "description": "Elite Spatial Memory & Cognitive Working Memory Game",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090a0f",
+  "theme_color": "#090a0f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lavesh Aamte — Full-Stack Software Engineer</title>
+  <meta
+    name="description"
+    content="Lavesh Aamte — Full-stack software engineer building web applications, local AI tools, and browser-native experiences. Specializing in React, TypeScript, Python, and FastAPI."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- SCROLL PROGRESS -->
+  <div class="scroll-progress"><span id="scrollProgressBar"></span></div>
+
+  <!-- SUBTLE STRUCTURAL GRID BACKGROUND -->
+  <div class="grid-canvas" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="brand" aria-label="Lavesh Aamte Home">
+      <span class="brand-monogram">LA</span>
+      <div class="brand-text">
+        <span class="brand-name">Lavesh Aamte</span>
+        <span class="brand-role">Software Engineer</span>
+      </div>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary Navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Work</a>
+      <a href="#games" class="nav-link">Cognitive Labs</a>
+      <a href="#archive" class="nav-link">Archive</a>
+      <a href="#skills" class="nav-link">Stack</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="LAVESHresu.pdf" target="_blank" rel="noopener noreferrer" class="btn-nav-resume">
+        <span>Resume</span>
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+      <a href="#contact" class="btn-nav-contact">Let's Talk</a>
+      <button class="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-head">
+      <span class="mono-label">// NAVIGATION</span>
+      <span class="mono-label">2026</span>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="#home"><span class="nav-num">01</span><span>Home</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#about"><span class="nav-num">02</span><span>About & Philosophy</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#projects"><span class="nav-num">03</span><span>Selected Work</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#games"><span class="nav-num">04</span><span>Cognitive Labs</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#archive"><span class="nav-num">05</span><span>Engineering Archive</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#skills"><span class="nav-num">06</span><span>Technical Stack</span><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#contact"><span class="nav-num">07</span><span>Contact</span><i class="fa-solid fa-arrow-right"></i></a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="LAVESHresu.pdf" target="_blank" rel="noopener noreferrer" class="mobile-resume-btn">
+        <i class="fa-solid fa-file-pdf"></i> Download Resume (PDF)
+      </a>
+    </div>
+  </div>
+
+  <!-- FLOATING SECTION RAIL -->
+  <nav class="section-rail" aria-label="Quick Section Nav">
+    <a href="#home" data-rail="home" aria-label="Home"><span></span><small>Home</small></a>
+    <a href="#about" data-rail="about" aria-label="About"><span></span><small>About</small></a>
+    <a href="#projects" data-rail="projects" aria-label="Work"><span></span><small>Work</small></a>
+    <a href="#games" data-rail="games" aria-label="Labs"><span></span><small>Cognitive Labs</small></a>
+    <a href="#archive" data-rail="archive" aria-label="Archive"><span></span><small>Archive</small></a>
+    <a href="#skills" data-rail="skills" aria-label="Stack"><span></span><small>Stack</small></a>
+    <a href="#contact" data-rail="contact" aria-label="Contact"><span></span><small>Contact</small></a>
+  </nav>
+
+  <main>
+
+    <!-- =========================================================
+         HERO SECTION
+    ========================================================== -->
+    <section class="hero-section" id="home">
+      <div class="hero-layout">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Available for full-time roles &amp; engineering contracts</span>
+          </div>
+
+          <div class="hero-intro-tag">
+            <span class="mono-label">[01 // FULL-STACK SOFTWARE ENGINEER]</span>
+          </div>
+
+          <h1 class="hero-title">
+            Lavesh Aamte
+          </h1>
+
+          <p class="hero-subtitle">
+            I build full-stack web applications, local-first AI tools, and browser-native experiences that solve real problems.
+          </p>
+
+          <p class="hero-description">
+            My work combines clean software architecture with intuitive interfaces. From orchestrating on-device machine learning in Python to engineering low-latency React client applications, I care deeply about how systems perform under real-world conditions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Selected Work</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <a href="LAVESHresu.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <span>Resume (PDF)</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- DEVELOPER SPEC BAR -->
+          <div class="dev-spec-strip">
+            <div class="spec-item">
+              <span class="spec-label">LOCATION</span>
+              <span class="spec-value">India (IST)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">CORE STACK</span>
+              <span class="spec-value">TypeScript • React • Python • FastAPI • Node</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">GITHUB</span>
+              <a href="https://github.com/laveshaamte17anu" target="_blank" rel="noopener noreferrer" class="spec-link">
+                @laveshaamte17anu <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: ENGINEER DOSSIER CARD -->
+        <div class="hero-card-col">
+          <div class="profile-dossier-card">
+            <div class="dossier-header">
+              <span class="mono-label">ENGINEER_SPEC // 2026</span>
+              <span class="dossier-status"><i class="status-dot-sm"></i> ACTIVE</span>
+            </div>
+
+            <div class="dossier-photo-wrap">
+              <img
+                src="images/profile.png/WhatsApp Image 2026-06-29 at 7.40.54 PM.jpeg"
+                alt="Lavesh Aamte — Full Stack Developer"
+                class="dossier-photo"
+              />
+              <div class="photo-coordinates">
+                <span>LAT 28.61° N // LON 77.20° E</span>
+              </div>
+            </div>
+
+            <div class="dossier-footer">
+              <div class="dossier-identity">
+                <span class="dossier-name">Lavesh Aamte</span>
+                <span class="dossier-title">Full Stack Developer</span>
+              </div>
+              <div class="dossier-socials">
+                <a href="https://github.com/laveshaamte17anu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/lavesh-aamte-0b08b9407" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/laveesshhh" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="dossier-meta-grid">
+              <div class="meta-cell">
+                <span class="meta-caption">FLAGSHIP WORK</span>
+                <strong class="meta-data">3 Projects</strong>
+              </div>
+              <div class="meta-cell">
+                <span class="meta-caption">INTERACTIVE LABS</span>
+                <strong class="meta-data">2 Games</strong>
+              </div>
+              <div class="meta-cell stat-github" hidden>
+                <span class="meta-caption">PUBLIC REPOS</span>
+                <strong class="meta-data github-repo-count">—</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         TECHNICAL FOCUS STRIP
+    ========================================================== -->
+    <section class="tech-focus-bar">
+      <div class="focus-bar-inner">
+        <span class="focus-tag"><i class="fa-solid fa-code"></i> REACT 19 &amp; TYPESCRIPT</span>
+        <span class="focus-sep">•</span>
+        <span class="focus-tag"><i class="fa-solid fa-server"></i> FASTAPI &amp; NODE.JS BACKENDS</span>
+        <span class="focus-sep">•</span>
+        <span class="focus-tag"><i class="fa-solid fa-microchip"></i> LOCAL-FIRST AI (OLLAMA)</span>
+        <span class="focus-sep">•</span>
+        <span class="focus-tag"><i class="fa-solid fa-eye"></i> BROWSER COMPUTER VISION (MEDIAPIPE)</span>
+        <span class="focus-sep">•</span>
+        <span class="focus-tag"><i class="fa-solid fa-wave-square"></i> REAL-TIME OPTICAL rPPG</span>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 02: ABOUT & ENGINEERING PHILOSOPHY
+    ========================================================== -->
+    <section class="content-section" id="about">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="section-index">02</span>
+          <span class="section-label">ENGINEERING PHILOSOPHY</span>
+        </div>
+        <span class="section-meta">HOW I WORK</span>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-narrative">
+          <span class="sub-kicker">// APPROACH</span>
+          <h2 class="section-heading">
+            Building software with intent, craft, and architectural rigor.
+          </h2>
+          <p class="about-lead-text">
+            I don't just assemble templates or stop at wireframes. I build complete systems: from database schema design and authenticated API contracts to accessible component trees and reliable deployments.
+          </p>
+          <p class="about-body-text">
+            My engineering work emphasizes privacy-first computing (keeping sensitive audio and video on the user's hardware), resilient failure states (ensuring web clients remain usable even when remote servers are unreachable), and clean, maintainable codebases.
+          </p>
+
+          <div class="verified-stats-row">
+            <div class="stat-box">
+              <span class="stat-number">3</span>
+              <span class="stat-desc">Flagship Engineering Projects</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">2</span>
+              <span class="stat-desc">Browser Cognitive Testing Labs</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">100%</span>
+              <span class="stat-desc">Self-Contained Browser Previews</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-pillars">
+          <div class="pillar-card">
+            <div class="pillar-number">01</div>
+            <div class="pillar-content">
+              <h3>Frontend Systems &amp; Performance</h3>
+              <p>
+                Developing type-safe component architectures in React and TypeScript. Prioritizing instant render times, zero cumulative layout shift (CLS), keyboard accessibility, and resilient client-side state machines.
+              </p>
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-number">02</div>
+            <div class="pillar-content">
+              <h3>Backend Systems &amp; Asynchronous APIs</h3>
+              <p>
+                Building structured RESTful endpoints and streaming backends using Python (FastAPI) and Node.js. Implementing clean data models across MongoDB and relational databases with proper schema validation.
+              </p>
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-number">03</div>
+            <div class="pillar-content">
+              <h3>Local AI &amp; In-Browser Signal Processing</h3>
+              <p>
+                Designing privacy-conscious applications that process user data locally. Leveraging Ollama for local LLM text generation and MediaPipe + WebGL for camera-based facial landmark extraction and optical pulse analysis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 03: SELECTED WORK (FLAGSHIP PROJECTS)
+    ========================================================== -->
+    <section class="content-section" id="projects">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="section-index">03</span>
+          <span class="section-label">SELECTED WORK</span>
+        </div>
+        <span class="section-meta">3 FLAGSHIP PROJECTS</span>
+      </div>
+
+      <div class="section-title-wrap">
+        <div>
+          <span class="sub-kicker">// PORTFOLIO</span>
+          <h2 class="section-heading">Featured Engineering Projects</h2>
+        </div>
+        <p class="section-lead">
+          Three full-featured applications built with end-to-end architectures, local intelligence, and browser-based computer vision.
+        </p>
+      </div>
+
+      <div class="flagship-projects-list">
+
+        <!-- =========================================================
+             PROJECT 01: AI-CB
+        ========================================================== -->
+        <article class="featured-project-card">
+          <div class="project-preview-frame">
+            <img
+              src="images/ai-cb/AICB.jpg"
+              alt="AI-CB Local Voice & Chat Assistant Interface"
+              loading="lazy"
+            />
+            <div class="preview-badge">
+              <span class="badge-index">01</span>
+              <span>LOCAL AI &amp; SPEECH</span>
+            </div>
+            <a href="projects/ai-cb/index.html" target="_blank" class="preview-hover-action" aria-label="Open AI-CB Live Web App">
+              <span>LAUNCH APP</span>
+              <i class="fa-solid fa-arrow-up-right"></i>
+            </a>
+          </div>
+
+          <div class="project-details">
+            <div class="project-meta-line">
+              <span class="project-category">PRIVACY-FIRST ARTIFICIAL INTELLIGENCE</span>
+              <span class="project-year">2026</span>
+            </div>
+
+            <h3 class="project-title">
+              <a href="projects/ai-cb/index.html" target="_blank">AI-CB — Local Voice &amp; Chat Assistant</a>
+            </h3>
+
+            <p class="project-summary">
+              A privacy-centric personal AI assistant designed to run without sending conversational data to third-party cloud servers. Features live speech-to-text audio input, streaming LLM chat via local Ollama models, document context attachments, and persistent memory sessions.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Speech Recognition:</strong> Hands-free voice capture with real-time waveform visualization.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Local LLM Orchestration:</strong> FastAPI backend streaming tokens directly from local Ollama instances.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Hybrid Hosting Architecture:</strong> Configured with Cloud fallback &amp; live backend connection management.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">FastAPI</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">Ollama LLM</span>
+              <span class="tech-pill">Web Speech API</span>
+              <span class="tech-pill">Tailwind CSS</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="projects/ai-cb/index.html" target="_blank" class="action-btn-primary">
+                <span>Open Live Project</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/laveshaamte17anu/AI-CB" target="_blank" rel="noopener noreferrer" class="action-btn-github" aria-label="AI-CB GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+                <span>View Source</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- =========================================================
+             PROJECT 02: HIREFLOW
+        ========================================================== -->
+        <article class="featured-project-card layout-reverse">
+          <div class="project-preview-frame">
+            <img
+              src="images/hireflow/HF.jpg"
+              alt="HireFlow Recruitment & ATS Platform Interface"
+              loading="lazy"
+            />
+            <div class="preview-badge">
+              <span class="badge-index">02</span>
+              <span>FULL-STACK ATS PLATFORM</span>
+            </div>
+            <a href="projects/hireflow/index.html" target="_blank" class="preview-hover-action" aria-label="Open HireFlow Live Web App">
+              <span>LAUNCH APP</span>
+              <i class="fa-solid fa-arrow-up-right"></i>
+            </a>
+          </div>
+
+          <div class="project-details">
+            <div class="project-meta-line">
+              <span class="project-category">FULL STACK / RECRUITMENT &amp; WORKFLOW</span>
+              <span class="project-year">2026</span>
+            </div>
+
+            <h3 class="project-title">
+              <a href="projects/hireflow/index.html" target="_blank">HireFlow — Modern Applicant Tracking System</a>
+            </h3>
+
+            <p class="project-summary">
+              An end-to-end recruitment management application built to streamline hiring pipelines. Features role-based access control with dual portals for job applicants and corporate hiring teams, stage-by-stage candidate progression, and structured interview rubrics.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Dual-Portal System:</strong> Candidate job discovery portal and recruiter management pipeline.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Pipeline Kanban:</strong> Stage progression tracking (Applied, Screening, Interview, Offered).</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Database Architecture:</strong> RESTful API backend handling candidate submissions and status queries.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">Express</span>
+              <span class="tech-pill">MongoDB</span>
+              <span class="tech-pill">Tailwind CSS</span>
+              <span class="tech-pill">Vite</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="projects/hireflow/index.html" target="_blank" class="action-btn-primary">
+                <span>Open Live Project</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/laveshaamte17anu/HIREFLOWW" target="_blank" rel="noopener noreferrer" class="action-btn-github" aria-label="HireFlow GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+                <span>View Source</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- =========================================================
+             PROJECT 03: HRV-M CARDIOCAM
+        ========================================================== -->
+        <article class="featured-project-card">
+          <div class="project-preview-frame">
+            <img
+              src="images/hrv-m/HRVM.jpg"
+              alt="HRV-M CardioCam Optical Vitals Scanner Interface"
+              loading="lazy"
+            />
+            <div class="preview-badge">
+              <span class="badge-index">03</span>
+              <span>COMPUTER VISION &amp; rPPG</span>
+            </div>
+            <a href="projects/hrv-m/index.html" target="_blank" class="preview-hover-action" aria-label="Open HRV-M CardioCam Scanner">
+              <span>LAUNCH SCANNER</span>
+              <i class="fa-solid fa-arrow-up-right"></i>
+            </a>
+          </div>
+
+          <div class="project-details">
+            <div class="project-meta-line">
+              <span class="project-category">BIOMETRICS / SIGNAL PROCESSING / COMPUTER VISION</span>
+              <span class="project-year">2026</span>
+            </div>
+
+            <h3 class="project-title">
+              <a href="projects/hrv-m/index.html" target="_blank">HRV-M CardioCam — Optical Vitals Scanner</a>
+            </h3>
+
+            <p class="project-summary">
+              A browser-native remote photoplethysmography (rPPG) vitals scanner that measures heart rate, heart rate variability (HRV SDNN), and respiration rate in real time using a standard webcam. Extracts subtle pulse-induced skin micro-color variations across facial regions of interest.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Facial Mesh Tracking:</strong> 468-point real-time landmark tracking using Google MediaPipe in WebAssembly.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Optical rPPG Signal Processing:</strong> Green-channel spatial averaging, Butterworth filtering, and peak detection.</span>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-check"></i>
+                <span><strong>Zero-Server Privacy:</strong> Entire optical measurement executes in client-side memory; video never leaves the device.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">MediaPipe</span>
+              <span class="tech-pill">WebGL / Canvas</span>
+              <span class="tech-pill">Signal Processing</span>
+              <span class="tech-pill">FastAPI</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="projects/hrv-m/index.html" target="_blank" class="action-btn-primary">
+                <span>Launch Vitals Scanner</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/laveshaamte17anu/HRV-M" target="_blank" rel="noopener noreferrer" class="action-btn-github" aria-label="HRV-M GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+                <span>View Source</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 04: COGNITIVE LABS (INTERACTIVE GAMES)
+    ========================================================== -->
+    <section class="content-section" id="games">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="section-index">04</span>
+          <span class="section-label">INTERACTIVE LABS</span>
+        </div>
+        <span class="section-meta">2 PLAYABLE BENCHMARKS</span>
+      </div>
+
+      <div class="section-title-wrap">
+        <div>
+          <span class="sub-kicker">// EXPERIMENTS</span>
+          <h2 class="section-heading">Neuro-Cognitive Testing Labs</h2>
+        </div>
+        <p class="section-lead">
+          Interactive browser-based experiments built to benchmark working memory and sequence recall using state machines and audio synthesis. Play directly online.
+        </p>
+      </div>
+
+      <div class="games-grid-layout">
+
+        <!-- GAME 01: CHIMP MEMORY -->
+        <article class="interactive-lab-card">
+          <div class="lab-card-preview">
+            <img
+              src="images/chimp-memory/CM.jpg"
+              alt="Chimp Memory Working Memory Test Interface"
+              loading="lazy"
+            />
+            <div class="lab-pill-badge">
+              <span class="live-ping"></span>
+              <span>WORKING MEMORY BENCHMARK</span>
+            </div>
+            <a href="games/chimp-memory/index.html" target="_blank" class="preview-hover-action" aria-label="Play Chimp Memory Benchmark">
+              <span>PLAY LAB</span>
+              <i class="fa-solid fa-play"></i>
+            </a>
+          </div>
+
+          <div class="lab-card-content">
+            <div class="lab-meta-header">
+              <span class="mono-label">SPATIAL WORKING MEMORY</span>
+              <span class="lab-platform">REACT + VITE</span>
+            </div>
+
+            <h3 class="lab-card-title">
+              <a href="games/chimp-memory/index.html" target="_blank">Chimp Memory Test</a>
+            </h3>
+
+            <p class="lab-card-description">
+              Inspired by the famous Kyoto University primate memory benchmark test. Numbers appear momentarily across a dynamic grid before being masked into blank tiles. Test how many spatial positions your working memory can recall in exact ascending order under strict millisecond constraints.
+            </p>
+
+            <div class="lab-tech-pills">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">Web Audio API</span>
+              <span class="tech-pill">CSS Grid</span>
+              <span class="tech-pill">State Machine</span>
+              <span class="tech-pill">LocalStorage</span>
+            </div>
+
+            <div class="lab-card-footer">
+              <a href="games/chimp-memory/index.html" target="_blank" class="play-lab-btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Launch Test</span>
+              </a>
+              <span class="lab-run-note">Runs in-browser</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- GAME 02: OBJECT ORDER MEMORY -->
+        <article class="interactive-lab-card">
+          <div class="lab-card-preview">
+            <img
+              src="images/object-order-memory/OOM.jpg"
+              alt="Object Order Memory Test Interface"
+              loading="lazy"
+            />
+            <div class="lab-pill-badge">
+              <span class="live-ping"></span>
+              <span>SEQUENCE RECALL CHALLENGE</span>
+            </div>
+            <a href="games/object-order-memory/index.html" target="_blank" class="preview-hover-action" aria-label="Play Object Order Memory Challenge">
+              <span>PLAY LAB</span>
+              <i class="fa-solid fa-play"></i>
+            </a>
+          </div>
+
+          <div class="lab-card-content">
+            <div class="lab-meta-header">
+              <span class="mono-label">VISUAL SEQUENCE RECALL</span>
+              <span class="lab-platform">REACT 19 + VITE</span>
+            </div>
+
+            <h3 class="lab-card-title">
+              <a href="games/object-order-memory/index.html" target="_blank">Object Order Memory</a>
+            </h3>
+
+            <p class="lab-card-description">
+              A neuro-cognitive visual working memory test. Observe a randomized sequence of everyday objects displayed in specific chronological orders. Once concealed, reconstruct the exact sequence from memory as difficulty and item counts scale dynamically.
+            </p>
+
+            <div class="lab-tech-pills">
+              <span class="tech-pill">React 19</span>
+              <span class="tech-pill">Audio Synthesis</span>
+              <span class="tech-pill">Adaptive Scaling</span>
+              <span class="tech-pill">State Machines</span>
+              <span class="tech-pill">Precision Scoring</span>
+            </div>
+
+            <div class="lab-card-footer">
+              <a href="games/object-order-memory/index.html" target="_blank" class="play-lab-btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Launch Test</span>
+              </a>
+              <span class="lab-run-note">Runs in-browser</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 05: ENGINEERING ARCHIVE (UTILITY APPLICATIONS)
+    ========================================================== -->
+    <section class="content-section" id="archive">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="section-index">05</span>
+          <span class="section-label">ENGINEERING ARCHIVE</span>
+        </div>
+        <span class="section-meta">UTILITY APPLICATIONS</span>
+      </div>
+
+      <div class="section-title-wrap">
+        <div>
+          <span class="sub-kicker">// CATALOG</span>
+          <h2 class="section-heading">Web Applications &amp; Utilities</h2>
+        </div>
+        <p class="section-lead">
+          Practical web utilities and applications built with vanilla DOM APIs, clean state management, and external service integrations.
+        </p>
+      </div>
+
+      <div class="archive-grid">
+
+        <!-- ARCHIVE ITEM 01: WEATHER APP -->
+        <div class="archive-card">
+          <div class="archive-card-image">
+            <img src="images/weather/WA.png" alt="Weather Application Preview" loading="lazy" />
+          </div>
+          <div class="archive-card-body">
+            <div class="archive-meta">
+              <span class="mono-label">REST API INTEGRATION</span>
+              <span>2026</span>
+            </div>
+            <h3 class="archive-title">
+              <a href="weather/index.html" target="_blank">Weather Forecast Application</a>
+            </h3>
+            <p class="archive-desc">
+              Real-time atmospheric conditions, five-day weather forecasts, humidity, wind velocity, and dynamic meteorological icon mapping powered by the OpenWeather API.
+            </p>
+            <div class="archive-tags">
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Fetch API</span>
+              <span class="tech-pill">OpenWeather</span>
+              <span class="tech-pill">CSS3 Layouts</span>
+            </div>
+            <div class="archive-links">
+              <a href="weather/index.html" target="_blank" class="archive-link-btn">
+                <span>Live App</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/laveshaamte17anu/weather-app" target="_blank" rel="noopener noreferrer" class="archive-github-link" aria-label="Weather App GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ARCHIVE ITEM 02: EXPENSE TRACKER -->
+        <div class="archive-card">
+          <div class="archive-card-image">
+            <img src="images/expense/ET.webp" alt="Expense Tracker Application Preview" loading="lazy" />
+          </div>
+          <div class="archive-card-body">
+            <div class="archive-meta">
+              <span class="mono-label">PERSONAL FINANCE &amp; ANALYTICS</span>
+              <span>2026</span>
+            </div>
+            <h3 class="archive-title">
+              <a href="expense/index.html" target="_blank">Personal Expense Tracker</a>
+            </h3>
+            <p class="archive-desc">
+              Financial ledger application featuring transaction categorization, spending breakdown charts, balance calculations, and persistent browser storage.
+            </p>
+            <div class="archive-tags">
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">LocalStorage</span>
+              <span class="tech-pill">Chart Logic</span>
+              <span class="tech-pill">Finance UI</span>
+            </div>
+            <div class="archive-links">
+              <a href="expense/index.html" target="_blank" class="archive-link-btn">
+                <span>Live App</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/laveshaamte17anu/Expense-tracker" target="_blank" rel="noopener noreferrer" class="archive-github-link" aria-label="Expense Tracker GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ARCHIVE ITEM 03: E-COMMERCE -->
+        <div class="archive-card">
+          <div class="archive-card-image">
+            <img src="images/ecommerce/EC.jpg" alt="E-Commerce Storefront Preview" loading="lazy" />
+          </div>
+          <div class="archive-card-body">
+            <div class="archive-meta">
+              <span class="mono-label">COMMERCE &amp; CART ENGINE</span>
+              <span>2026</span>
+            </div>
+            <h3 class="archive-title">
+              <a href="ecommerce/index.html" target="_blank">E-Commerce Storefront UI</a>
+            </h3>
+            <p class="archive-desc">
+              Modular e-commerce interface featuring dynamic product filtering, persistent shopping cart drawer, quantity modifiers, and structured product views.
+            </p>
+            <div class="archive-tags">
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Cart State</span>
+              <span class="tech-pill">Semantic HTML</span>
+              <span class="tech-pill">Responsive Design</span>
+            </div>
+            <div class="archive-links">
+              <a href="ecommerce/index.html" target="_blank" class="archive-link-btn">
+                <span>Live App</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <a href="https://github.com/laveshaamte17anu/ecommerce" target="_blank" rel="noopener noreferrer" class="archive-github-link" aria-label="E-Commerce GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 06: TECHNICAL TOOLKIT
+    ========================================================== -->
+    <section class="content-section" id="skills">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="section-index">06</span>
+          <span class="section-label">TECHNICAL TOOLKIT</span>
+        </div>
+        <span class="section-meta">LANGUAGES &amp; TOOLS</span>
+      </div>
+
+      <div class="section-title-wrap">
+        <div>
+          <span class="sub-kicker">// STACK</span>
+          <h2 class="section-heading">Technologies I Work With</h2>
+        </div>
+        <p class="section-lead">
+          A breakdown of languages, frameworks, libraries, and tooling I use across frontend, backend, and machine learning projects.
+        </p>
+      </div>
+
+      <div class="toolkit-grid">
+
+        <!-- TOOLKIT CARD 01: FRONTEND -->
+        <div class="toolkit-card">
+          <div class="toolkit-card-header">
+            <span class="toolkit-icon"><i class="fa-brands fa-react"></i></span>
+            <div>
+              <h3>Frontend &amp; Interfaces</h3>
+              <span class="mono-label">CLIENT-SIDE ENGINEERING</span>
+            </div>
+          </div>
+          <ul class="toolkit-list">
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">React &amp; React 19</span>
+                <span class="tool-role">Component Architecture</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">TypeScript</span>
+                <span class="tool-role">Type Safety &amp; Contracts</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">JavaScript (ES6+)</span>
+                <span class="tool-role">Modern Language Core</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">HTML5 &amp; CSS3</span>
+                <span class="tool-role">Semantic Web, Grid, Flex</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Tailwind CSS</span>
+                <span class="tool-role">Design Systems &amp; Tokens</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TOOLKIT CARD 02: BACKEND -->
+        <div class="toolkit-card">
+          <div class="toolkit-card-header">
+            <span class="toolkit-icon"><i class="fa-solid fa-server"></i></span>
+            <div>
+              <h3>Backend &amp; Services</h3>
+              <span class="mono-label">SERVER-SIDE &amp; APIS</span>
+            </div>
+          </div>
+          <ul class="toolkit-list">
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Python</span>
+                <span class="tool-role">APIs &amp; Signal DSP</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">FastAPI</span>
+                <span class="tool-role">High-Performance Asynchronous APIs</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Node.js</span>
+                <span class="tool-role">JavaScript Runtime</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Express</span>
+                <span class="tool-role">REST API Microservices</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">PHP</span>
+                <span class="tool-role">Server-Side Scripting</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TOOLKIT CARD 03: DATA & AI -->
+        <div class="toolkit-card">
+          <div class="toolkit-card-header">
+            <span class="toolkit-icon"><i class="fa-solid fa-brain"></i></span>
+            <div>
+              <h3>Data, ML &amp; Biometrics</h3>
+              <span class="mono-label">INTELLIGENCE &amp; PERSISTENCE</span>
+            </div>
+          </div>
+          <ul class="toolkit-list">
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">MediaPipe</span>
+                <span class="tool-role">Real-Time Face Mesh Tracking</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Ollama LLM</span>
+                <span class="tool-role">Local Model Orchestration</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">rPPG Signal DSP</span>
+                <span class="tool-role">FFT &amp; Peak Filtering</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">MongoDB</span>
+                <span class="tool-role">NoSQL Document Store</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">SQL &amp; Relational DBs</span>
+                <span class="tool-role">Structured Data Modeling</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TOOLKIT CARD 04: TOOLING & DEVOPS -->
+        <div class="toolkit-card">
+          <div class="toolkit-card-header">
+            <span class="toolkit-icon"><i class="fa-solid fa-wrench"></i></span>
+            <div>
+              <h3>Tooling &amp; Workflow</h3>
+              <span class="mono-label">DEV ENVIRONMENT &amp; CLOUD</span>
+            </div>
+          </div>
+          <ul class="toolkit-list">
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Git &amp; GitHub</span>
+                <span class="tool-role">Version Control &amp; CI/CD</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Vite</span>
+                <span class="tool-role">Modern Build Tooling</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Postman</span>
+                <span class="tool-role">API Testing &amp; Contracts</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Linux / Bash</span>
+                <span class="tool-role">Shell &amp; Environment Scripting</span>
+              </div>
+            </li>
+            <li>
+              <div class="tool-item">
+                <span class="tool-name">Netlify / Cloud Hosting</span>
+                <span class="tool-role">SPA Routing &amp; Edge Deployments</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 07: CONTACT & CONVERSATION
+    ========================================================== -->
+    <section class="content-section" id="contact">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="section-index">07</span>
+          <span class="section-label">CONTACT</span>
+        </div>
+        <span class="section-meta">GET IN TOUCH</span>
+      </div>
+
+      <div class="contact-box-container">
+        <div class="contact-info-col">
+          <span class="sub-kicker">// REACH OUT</span>
+          <h2 class="contact-headline">
+            Let's start a conversation.
+          </h2>
+          <p class="contact-desc">
+            I am open to full-time engineering positions, contract roles, and technical collaborations. Whether you want to discuss a specific project, system design, or local AI architectures, feel free to drop a message.
+          </p>
+
+          <div class="email-direct-block">
+            <span class="mono-label">DIRECT INBOX</span>
+            <div class="email-action-row">
+              <a href="mailto:laveshaamte17@gmail.com" class="direct-email-link">
+                <span>laveshaamte17@gmail.com</span>
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </a>
+              <button class="copy-email-btn" type="button" data-email="laveshaamte17@gmail.com" aria-label="Copy email address to clipboard">
+                <i class="fa-regular fa-copy"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="contact-social-links">
+            <span class="mono-label">NETWORKS</span>
+            <div class="social-pills-row">
+              <a href="https://github.com/laveshaamte17anu" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/lavesh-aamte-0b08b9407" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://www.instagram.com/laveesshhh" target="_blank" rel="noopener noreferrer" class="social-pill">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-col">
+          <div class="form-wrapper">
+            <div class="form-header">
+              <span class="mono-label">// SEND A MESSAGE</span>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+
+            <form id="contactForm" novalidate>
+              <div class="form-grid-row">
+                <div class="form-field">
+                  <label for="name">YOUR NAME</label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Jane Doe"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="email">YOUR EMAIL</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="jane@example.com"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="message">MESSAGE</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me about the role, project, or what you'd like to collaborate on..."
+                  required
+                ></textarea>
+              </div>
+
+              <button class="form-submit-btn" type="submit">
+                <span>Send Message</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <span class="brand-monogram">LA</span>
+          <div>
+            <strong class="footer-name">Lavesh Aamte</strong>
+            <span class="footer-tagline">Full-Stack Software Engineer</span>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Work</a>
+          <a href="#games">Cognitive Labs</a>
+          <a href="#archive">Archive</a>
+          <a href="#skills">Stack</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="footer-credits">
+          Designed and engineered by Lavesh Aamte. Crafted with semantic HTML, vanilla CSS, and modern JavaScript.
+        </p>
+
+        <div class="footer-right-actions">
+          <span>&copy; 2026 Lavesh Aamte. All rights reserved.</span>
+          <a href="#home" class="back-to-top-link">
+            <span>Back to top</span>
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BACK TO TOP BUTTON -->
+  <button class="floating-back-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

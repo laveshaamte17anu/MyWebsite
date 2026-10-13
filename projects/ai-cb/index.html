@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0d1322" />
+    <meta name="description" content="Local AI Voice and Document Assistant - 100% offline, local LLM and speech recognition." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Local AI Assistant</title>
+    <script type="module" crossorigin src="./assets/index-BM5TnYeO.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dds1_tI0.css">
+  </head>
+  <body>
+
+    <!-- Return to Portfolio Floating Pill -->
+    <a href="../../#projects" id="portfolio-return-badge" style="position:fixed;top:16px;left:16px;z-index:999999;display:inline-flex;align-items:center;gap:8px;padding:8px 16px;background:rgba(15,18,25,0.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#f8fafc;border:1px solid rgba(255,255,255,0.22);border-radius:9999px;font-size:13px;font-weight:600;text-decoration:none;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;box-shadow:0 8px 24px rgba(0,0,0,0.5);transition:all .2s ease;letter-spacing:0.3px;">
+      <span style="color:#38bdf8;font-size:15px;line-height:1;">&larr;</span> Back to Portfolio
+    </a>
+  
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('SW registration notice:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
